@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkgray;
+}
+
+header {
+    height: 6rem;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.botao {
+    font-size: 20px;
+    padding: 10px 25px;
+    border-color: white;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.botao:hover {
+    border-color: #ff0044;
+}
+
+.logo-rock {
+    width: 40px;
+}
+
+.logo-one {
+    width: 200px;
+}
